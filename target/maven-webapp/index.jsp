@@ -1,5 +1,16 @@
 <html>
+<head>
+    <title>Maven Web App</title>
+</head>
 <body>
-<h2>Hello World!</h2>
+
+<h1>🚀 Maven Web Application Deployed Successfully!</h1>
+
+<p>Hello from Tomcat Server 🎉</p>
+
+<%
+    out.println("Current Time: " + new java.util.Date());
+%>
+
 </body>
 </html>
